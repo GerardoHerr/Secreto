@@ -1,0 +1,21 @@
+# Excluir entorno virtual
+venv/
+
+# Excluir archivos y carpetas comunes de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Excluir archivos de configuración de VSCode
+.vscode/
+
+# Excluir archivos de logs y temporales
+*.log
+*.tmp
+
+# Excluir archivos de sistema
+.DS_Store
+Thumbs.db

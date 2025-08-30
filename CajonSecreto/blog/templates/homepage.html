@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title> Diario </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/homepage.css' %}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.8.2/pixi.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+</head>
+<body>
+    
+        <!-- Cursor personalizado corazón SVG -->
+        <div class="custom-cursor-heart">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" style="display:block">
+                <path d="M16 29s-13-8.35-13-16.5A7.5 7.5 0 0 1 16 7.5A7.5 7.5 0 0 1 29 12.5C29 20.65 16 29 16 29Z" fill="red" stroke="darkred" stroke-width="2"/>
+            </svg>
+        </div>
+    <div class="parallax-section" id="section1">
+    <div class="parallax-content">
+        <h1 class="main-title">Bienvenida Dani</h1>
+        <p class="subtitle">Un mensaje te espera</p>
+    </div>
+    </div>
+        <div class="scroll-indicator">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+            <path d="M12 16L6 10H18L12 16Z" fill="#fff"/>
+        </svg>
+        <span>Desliza hacia abajo</span>
+        </div>
+    <div class="content-section">
+        <p>Esta aplicación servirá como medio de encriptación, se te presentara una serie de acertijos y juegos que debes 
+            resolver para lograr decifrar el mensaje final.
+        </p>
+    </div>
+    <div class="parallax-section" id="section2">
+        <div style="display: flex; flex-direction: column; align-items: center; width: 100%;">
+            <h1>Buena Suerte</h1>
+            <a href="#" class="noise_btn noise_btn--border"><strong>Empezar</strong></a>
+        </div>
+    </div>
+    <div class="content-section">
+        <div class="content-card">
+            <p>💡 <strong>Pista:</strong> Cualquier duda consultar con tu Gerardo de confianza</p>
+            <div style="margin-top: 20px; font-size: 0.9rem; color: #666;">
+                <p>🔐 Los secretos más grandes requieren las mentes más brillantes</p>
+            </div>
+        </div>
+    </div>
+    <!-- Add more parallax and content sections as needed -->
+</body>
+</html>
